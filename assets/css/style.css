@@ -1,0 +1,16 @@
+header{
+    padding: 10px;
+}
+section{
+    margin-left: 20px;
+
+}
+.img_perfil{
+    margin-left: 5px;
+    height: 40vh;
+}
+@media screen and (max-width: 576px){
+    .img_perfil{
+        height: 55vh;
+    }
+}
