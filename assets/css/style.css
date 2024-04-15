@@ -3,7 +3,7 @@ header{
 }
 section{
     margin-left: 20px;
-
+    margin-right: 20px;
 }
 .img_perfil{
     margin-left: 5px;
@@ -15,5 +15,6 @@ section{
     }
     section{
         margin-left: 0px;
+        margin-right: 0px;
     }
 }
