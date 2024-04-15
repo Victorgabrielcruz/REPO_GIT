@@ -11,6 +11,6 @@ section{
 }
 @media screen and (max-width: 576px){
     .img_perfil{
-        height: 55vh;
+        height: 50vh;
     }
 }
