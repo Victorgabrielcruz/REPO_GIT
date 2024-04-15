@@ -78,7 +78,7 @@
         <section> 
             <div class="shadow-sm d-flex align-items-start ">
                 <div class="d-flex justify-content-center align-items-center img_perfil" >
-                    <img src="./assets/img/perfil.jpeg" alt="" class="img-fluid me-5" style="max-width:150px;">
+                    <img src="./assets/img/perfil.jpeg" alt="" class="img-fluid rounded me-5" style="max-width:150px;">
                 </div>            
                 <!-- Conteúdo à direita da imagem -->
                 <div>
@@ -146,12 +146,93 @@
                 </div>
             </div>
         </section>
+        <h5 class="mt-5 ">Conteúdo sugerido</h5>
+        <hr>
         <section id="secao3">
-            <!-- Section 3: Carousel/slider for suggested content -->
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
+        <h5 class="mt-5 ">Colegas de Trabalho</h5>
+        <hr>
         <section id="secao4">
-            <!-- Section 4: Grid for presenting main course colleagues -->
-        </section>
+            <div class="container mt-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- Card do Colega 1 -->
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/Matheus.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"> Matheus Titton</h5>
+                              <p class="card-text">Iniciando na graduação de Engenharia de Software pela PUCMINAS.</p>
+                              <a href="https://github.com/matheustitton" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- Card do Colega 2 -->
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/Rafael_de_Paiva.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Rafael de Paiva</h5>
+                              <p class="card-text">Estudante de Engenharia da Computação no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) 🇧🇷 Interesses incluem Algoritmos, Estrutura de Dados e Inteligência Artificial.</p>
+                              <a href="#" class="btn btn-primary">Git-Hub</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/Luiza_Lorys.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Luiza Lorys</h5>
+                              <p class="card-text"></p>
+                              <a href="#" class="btn btn-primary">github</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/Vinicius.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Vinicius Arthur</h5>
+                              <p class="card-text">Cursando Engenharia de Software.</p>
+                              <a href="#" class="btn btn-primary">Git-Hub</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/Jonathan_ena_da_Silva.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jonathan Sena da Silva</h5>
+                              <p class="card-text">Cursando Engenharia de Software.</p>
+                              <a href="#" class="btn btn-primary">Git-Hub</a>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- 
+Adicione mais cards conforme necessário para outros colegas -->
+                </div>
+            </div>
+                </section>
     </main>
     <footer>
         <!-- Footer with information about the site owner -->

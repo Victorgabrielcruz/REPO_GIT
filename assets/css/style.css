@@ -18,3 +18,14 @@ section{
         margin-right: 5px;
     }
 }
+@font-face {
+    font-family: 'Gotham';
+    src: url('caminho/para/o/arquivo/Gotham.woff2') format('woff2'),
+         url('caminho/para/o/arquivo/Gotham.woff') format('woff');
+    /* Adicione outros formatos de arquivo, se necessário */
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'Gotham', sans-serif;
+}
