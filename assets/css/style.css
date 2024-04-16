@@ -29,3 +29,35 @@ section{
 *{
     font-family: 'Gotham', sans-serif;
 }
+.dark-mode {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto em branco */
+
+    /* Estilos para os cards */
+    .card {
+        background-color: #444; /* Cor de fundo dos cards no modo dark */
+        color: #fff; /* Cor do texto nos cards no modo dark */
+    }
+
+    /* Estilos para as fontes */
+    body, p, h1, h2, h3, h4, h5, h6, a, .navbar-brand, .navbar-nav .nav-link, .card-title, .card-subtitle, .card-text {
+        color: #fff !important; /* Todas as fontes em branco no modo dark */
+    }
+
+    /* Estilos para os ícones */
+    .fa, .fab {
+        color: #fff !important; /* Cor dos ícones em branco no modo dark */
+    }
+    .b{
+        background-color: #333;
+        color: #fff;
+    }
+    .bg{
+        background-color: #333;
+    }
+    
+}
+.b{
+    background-color: #fff;
+    border: 0px;
+}
