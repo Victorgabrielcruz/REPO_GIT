@@ -1,8 +1,4 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}header {
+header {
     padding: 10px;
 }
 
@@ -116,4 +112,3 @@ a{
     margin-left: 20px;
     margin-right: 20px;
 }
-

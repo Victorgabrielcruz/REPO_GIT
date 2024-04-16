@@ -34,3 +34,24 @@ if (savedMode === 'true') {
     navbarBrand.classList.add('bg');
     navbarBrand.classList.remove('bg-light');
 }
+function isMobile() {
+    return window.innerWidth < 576;
+}
+
+// Função para remover ou adicionar a classe 'd-flex align-items-start' do elemento com ID 'perfil' dependendo do tamanho da tela
+function toggleFlexClassOnMobile() {
+    let perfilDiv = document.getElementById('perfil');
+    if (perfilDiv) {
+        if (isMobile()) {
+            // Se for um dispositivo móvel, remova a classe
+            perfilDiv.classList.remove('d-flex', 'align-items-start');
+        } else {
+            // Se não for um dispositivo móvel, adicione a classe de volta
+            perfilDiv.classList.add('d-flex', 'align-items-start');
+        }
+    }
+}
+
+// Verificar e aplicar a classe ao carregar a página e redimensionar a tela
+window.addEventListener('DOMContentLoaded', toggleFlexClassOnMobile);
+window.addEventListener('resize', toggleFlexClassOnMobile);
