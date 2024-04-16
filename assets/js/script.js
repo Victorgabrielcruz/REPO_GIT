@@ -1,5 +1,6 @@
 const toggleModeBtn = document.getElementById('toggleModeBtn');
 const body = document.body;
+const footer = document.querySelector('.footer');
 
 // Verificar o estado atual do modo (light ou dark)
 const isDarkMode = () => body.classList.contains('dark-mode');
@@ -7,6 +8,7 @@ const isDarkMode = () => body.classList.contains('dark-mode');
 // Função para alternar entre light e dark mode
 const toggleMode = () => {
     body.classList.toggle('dark-mode');
+    footer.classList.toggle('dark-mode-footer'); // Adicionar classe para footer no modo dark
     // Salvar o estado do modo no localStorage para persistência
     localStorage.setItem('darkMode', isDarkMode() ? 'true' : 'false');
 
@@ -26,6 +28,7 @@ toggleModeBtn.addEventListener('click', toggleMode);
 const savedMode = localStorage.getItem('darkMode');
 if (savedMode === 'true') {
     body.classList.add('dark-mode');
+    footer.classList.add('dark-mode-footer'); // Adicionar classe para footer no modo dark
     // Se o modo dark estiver ativado, mudar a classe da navbar para bg e remover bg-light
     const navbarBrand = document.querySelector('.navbar-brand');
     navbarBrand.classList.add('bg');

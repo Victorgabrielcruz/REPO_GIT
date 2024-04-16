@@ -1,5 +1,8 @@
-/* Estilos gerais */
-header {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}header {
     padding: 10px;
 }
 
@@ -84,14 +87,33 @@ a{
     }
 }
 
-/*@media screen and (max-width: 767px) {
-     Ajustes adicionais para telas menores, como smartphones 
-    .navbar_phone {
-         Adicione estilos aqui para ajustar a navbar em telas menores 
-    }
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
 
-    .img_perfil {
-         Ajuste o tamanho da imagem de perfil para telas menores, se necessário 
-    }
-}*/
+.footer h3 {
+    color: #fff;
+}
+
+.footer p {
+    color: #ccc;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+.dark-mode-footer {
+    background-color: #222;
+    color: #fff;
+}
+.repo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
