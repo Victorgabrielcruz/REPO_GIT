@@ -1,23 +1,25 @@
-header{
+/* Estilos gerais */
+header {
     padding: 10px;
 }
-section{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.img_perfil{
+
+
+
+.img_perfil {
     margin-left: 5px;
     height: 40vh;
 }
-@media screen and (max-width: 576px){
-    .img_perfil{
-        height: 50vh;
+
+@media screen and (max-width: 576px) {
+    /* Ajustes para telas menores, como smartphones */
+    .img_perfil {
+        height: 50vh; /* Ajuste de altura da imagem de perfil */
     }
-    section{
-        margin-left: 0px;
-        margin-right: 5px;
-    }
+
+
 }
+
+/* Fonte personalizada */
 @font-face {
     font-family: 'Gotham';
     src: url('caminho/para/o/arquivo/Gotham.woff2') format('woff2'),
@@ -26,9 +28,12 @@ section{
     font-weight: normal;
     font-style: normal;
 }
-*{
-    font-family: 'Gotham', sans-serif;
+
+* {
+    font-family: 'Gotham', sans-serif; /* Aplicar fonte personalizada */
 }
+
+/* Modo Dark */
 .dark-mode {
     background-color: #333; /* Cor de fundo escura */
     color: #fff; /* Cor do texto em branco */
@@ -48,16 +53,45 @@ section{
     .fa, .fab {
         color: #fff !important; /* Cor dos ícones em branco no modo dark */
     }
-    .b{
+    .b {
         background-color: #333;
         color: #fff;
     }
-    .bg{
+    .bg {
         background-color: #333;
     }
-    
 }
-.b{
+
+.b {
     background-color: #fff;
     border: 0px;
 }
+a{
+    text-decoration: none;
+}
+/* Navbar Responsiva */
+@media screen and (max-width: 991px) {
+    .navbar_desktop {
+        display: none !important; /* Esconder navbar desktop em telas médias */
+    }
+
+    .navbar_phone {
+        display: block !important; /* Mostrar navbar phone em telas médias */
+    }
+    section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/*@media screen and (max-width: 767px) {
+     Ajustes adicionais para telas menores, como smartphones 
+    .navbar_phone {
+         Adicione estilos aqui para ajustar a navbar em telas menores 
+    }
+
+    .img_perfil {
+         Ajuste o tamanho da imagem de perfil para telas menores, se necessário 
+    }
+}*/
+
