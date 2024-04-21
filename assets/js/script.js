@@ -55,3 +55,4 @@ function toggleFlexClassOnMobile() {
 // Verificar e aplicar a classe ao carregar a página e redimensionar a tela
 window.addEventListener('DOMContentLoaded', toggleFlexClassOnMobile);
 window.addEventListener('resize', toggleFlexClassOnMobile);
+
