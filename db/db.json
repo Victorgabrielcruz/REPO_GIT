@@ -1,0 +1,56 @@
+{
+    "colleagues": [
+        {
+            "name": "Matheus Titton",
+            "role": "Iniciando na graduação de Engenharia de Software pela PUCMINAS.",
+            "profile": "https://github.com/matheustitton",
+            "img": "./assets/img/Matheus.jpeg"
+
+        },
+        {
+            "name": "Rafael de Paiva",
+            "role": "Estudante de Engenharia da Computação no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) 🇧🇷 Interesses incluem Algoritmos, Estrutura de Dados e Inteligência Artificial.",
+            "profile": "https://github.com/RafaelDePaiva",
+            "img": "./assets/img/Rafael_de_Paiva.jpeg"
+        },
+        {
+            "name": "Jonathan Sena da Silva",
+            "role": "Cursando Engenharia de Software.",
+            "profile": "https://github.com/Js3Silva",
+            "img": "./assets/img/Jonathan_ena_da_Silva.jpeg"
+
+        }
+    ],
+    "suggestedContent": [
+        {
+            "title": "Processamento de imagens com JavaScript",
+            "description": "Um guia completo processamento de imagens com JavaScript.",
+            "link": "https://community.revelo.com.br/processamento-de-imagens-com-javascript/",
+            "image": "./assets/img/js_article.png"
+        },
+        {
+            "title": "Tutorial de React",
+            "description": "Aprenda React do zero ao avançado.",
+            "link": "https://pt-br.legacy.reactjs.org/tutorial/tutorial.html",
+            "image": "./assets/img/react_tutorial.png"
+        },
+        {
+            "title": "Boas práticas de CSS",
+            "description": "Melhore seu CSS com estas boas práticas.",
+            "link": "https://dev.to/dwtoledo/bem-do-css-boas-praticas-p8m",
+            "image": "./assets/img/css_best_practices.png"
+        },
+        {
+            "title": "Bootstrap",
+            "description": "",
+            "link": "https://getbootstrap.com/",
+            "image": "./assets/img/w3.png"
+        },
+        {
+            "title": "W3School",
+            "description": "",
+            "link": "https://www.w3schools.com/",
+            "image": "./assets/img/bootstrap-logo.png"
+        }
+    ]
+}

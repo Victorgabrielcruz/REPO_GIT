@@ -1,0 +1,55 @@
+
+.badge {
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+}
+
+.me-1 {
+    margin-right: 0.5em;
+}
+
+.navbar_desktop .navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar_phone .navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar_desktop .navbar-brand, 
+.navbar_phone .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar_desktop .nav-link, 
+.navbar_phone .nav-link {
+    color: #343a40;
+}
+
+.navbar_desktop .nav-link:hover, 
+.navbar_phone .nav-link:hover {
+    color: #007bff;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+#userAvatar {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#carouselContent .carousel-item img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #dee2e6;
+}
