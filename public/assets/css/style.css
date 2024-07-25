@@ -53,3 +53,20 @@ footer {
     padding: 20px 0;
     border-top: 1px solid #dee2e6;
 }
+.skills {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+
+}
+.t{
+    list-style-image: url('../img/verificar.png');
+    
+}
+.sub{
+    color: darkgray;
+    font-size: 16px;
+    margin: 0;
+}
