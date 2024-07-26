@@ -52,45 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     // Fetch JSONServer Data for Colleagues
-    fetch('http://localhost:3000/colleagues')
-        .then(response => response.json())
-        .then(data => {
-            const colleaguesContainer = document.getElementById('colleaguesContainer');
-            data.forEach(colleague => {
-                const colleagueCard = document.createElement('div');
-                colleagueCard.classList.add('col-md-4');
-                colleagueCard.innerHTML = `
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="${colleague.img}" style="width: 18rem;">
-                            <h5 class="card-title">${colleague.name}</h5>
-                            <p class="card-text">${colleague.role}</p>
-                            <a href="${colleague.profile}" target="_blank" class="btn btn-primary">Ver perfil</a>
-                        </div>
-                    </div>
-                `;
-                colleaguesContainer.appendChild(colleagueCard);
-            });
-        });
+
 
     // Fetch Suggested Content for Carousel
-    fetch('http://localhost:3000/suggestedContent')
-        .then(response => response.json())
-        .then(data => {
-            const carouselInner = document.querySelector('.carousel-inner');
-            data.forEach((content, index) => {
-                const carouselItem = document.createElement('div');
-                carouselItem.classList.add('carousel-item');
-                if (index === 0) carouselItem.classList.add('active');
-                carouselItem.innerHTML = `
-                    <a href="${content.link}">
-                    <img src="${content.image}" class="d-block w-100" alt="${content.title}">
-                    </a>
 
-                `;
-                carouselInner.appendChild(carouselItem);
-            });
-        });
 });
 document.addEventListener('DOMContentLoaded', () => {
     // Função para obter os parâmetros da URL
@@ -144,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             for (const [language, bytes] of Object.entries(languages)) {
                 const tag = document.createElement('span');
-                tag.className = 'badge bg-secondary me-1';
+                tag.className = 'badge bg-secondary me-1 bl';
                 tag.textContent = `${language} (${bytes} bytes)`;
                 languageTags.appendChild(tag);
             }
